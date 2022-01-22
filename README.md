@@ -1,15 +1,17 @@
 # 🗺 Go binary size treemap
 
-Install
 ```
 $ go install github.com/nikolaydubina/go-binsize-treemap@latest
-# get c++flit
+$ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ```
 
-Then run
-```
-go tool nm -size <binary finename> | c++filt | go-binsize-treemap > binsize.svg
-```
+## TODO
+
+- [ ] C++
+- [ ] identify go:embed
+- [ ] collapse long chains besides root
+- [ ] color by type + increasing luminance (sys; user; c++; go:embed; etc.)
+- [ ] heat by ????
 
 ## Related Work
 
@@ -22,3 +24,15 @@ go tool nm -size <binary finename> | c++filt | go-binsize-treemap > binsize.svg
 - https://github.com/jondot/goweight
 - https://github.com/nikolaydubina/treemap
 - https://github.com/nikolaydubina/go-cover-treemap
+- https://github.com/golang/go/blob/master/src/cmd/nm/doc.go
+- https://linux.die.net/man/1/c++filt
+- https://github.com/goccy/go-graphviz
+
+## Appendix A: Strange Output / C++ / CGO
+
+You many need to demungle symtab file first. Install `c++flit`. Then process symtab first.
+Note, c++ support is work in progress.
+
+```
+$ go tool nm -size <binary finename> | c++filt | go-binsize-treemap > binsize.svg
+```
