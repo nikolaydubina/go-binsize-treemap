@@ -3,12 +3,16 @@ package symtab
 import (
 	"errors"
 	"fmt"
+	"log"
 	"strconv"
 	"strings"
 )
 
-// GoSymtabParser parser symtab files produced by `go tool nm`. https://pkg.go.dev/cmd/nm
-type GoSymtabParser struct{}
+// GoSymtabParser parser symtab files produced by `go tool nm`.
+// https://pkg.go.dev/cmd/nm
+type GoSymtabParser struct {
+	Verbosity uint
+}
 
 func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	var f SymtabFile
@@ -18,7 +22,11 @@ func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	for i, line := range lines {
 		e, err := parseGoSymtabLine(line)
 		if err != nil {
-			return nil, fmt.Errorf("error parasing symtab file at line(%d): %w", i, err)
+			err := fmt.Errorf("error parasing symtab file at line(%d): %w", i, err)
+			if s.Verbosity > 0 {
+				log.Println(err.Error())
+			}
+			continue
 		}
 		f.Entries = append(f.Entries, e)
 	}
@@ -26,27 +34,41 @@ func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	return &f, nil
 }
 
-// https://pkg.go.dev/cmd/nm
 func parseGoSymtabLine(line string) (SymtabEntry, error) {
+	var rawAddress, rawSize, rawType, rawSymbolName string
+
 	fields := strings.Fields(line)
-	if len(fields) < 3 {
-		return SymtabEntry{}, errors.New("wrong number of fields, expected 3+")
+	switch len(fields) {
+	case 4:
+		// normal: "101ae42a0          4 R $f32.3de978d5"
+		rawAddress = fields[0]
+		rawSize = fields[1]
+		rawType = fields[2]
+		rawSymbolName = fields[3]
+	case 3:
+		// undefined: "       4294971392 U _CFArrayGetCount"
+		rawSize = fields[0]
+		rawType = fields[1]
+		rawSymbolName = fields[2]
+	default:
+		return SymtabEntry{}, errors.New("wrong number of elements in line")
 	}
 
 	var entry SymtabEntry
 
-	entry.Address = fields[0]
-
-	size, err := strconv.Atoi(fields[1])
-	if err == nil {
-		return SymtabEntry{}, fmt.Errorf("wrong size: %w", err)
+	entry.Address = rawAddress
+	size, err := strconv.Atoi(rawSize)
+	if err != nil {
+		return SymtabEntry{}, fmt.Errorf("wrong size field: %w", err)
 	}
 	entry.Size = uint(size)
+	entry.Type = SymbolType(rawType)
+	entry.SymbolName = rawSymbolName
 
-	entry.Type = SymbolType(fields[2])
-
-	if len(fields) > 3 {
-		entry.SymbolName = fields[3]
+	if len(fields) == 3 {
+		if entry.Type != Undefined {
+			return entry, errors.New("got 3 fields but have non undefined type")
+		}
 	}
 
 	return entry, nil

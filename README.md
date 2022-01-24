@@ -11,6 +11,7 @@ $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 - [ ] identify go:embed
 - [ ] collapse long chains besides root
 - [ ] color by type + increasing luminance (sys; user; c++; go:embed; etc.)
+- [ ] color by symbol type
 - [ ] heat by ????
 
 ## Related Work

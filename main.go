@@ -27,14 +27,18 @@ var grey = color.RGBA{128, 128, 128, 255}
 
 func main() {
 	var (
-		coverprofile   string
-		w              float64
-		h              float64
-		marginBox      float64
-		paddingBox     float64
-		padding        float64
-		maxDepth       uint
-		includeSymbols bool
+		coverprofile       string
+		w                  float64
+		h                  float64
+		marginBox          float64
+		paddingBox         float64
+		padding            float64
+		maxDepth           uint
+		includeSymbols     bool
+		includeUnknown     bool
+		includePureSymbols bool
+		showSizeBytes      bool
+		verbosity          uint
 	)
 
 	flag.Usage = func() {
@@ -48,7 +52,10 @@ func main() {
 	flag.Float64Var(&paddingBox, "padding-box", 4, "padding between box border and content")
 	flag.Float64Var(&padding, "padding", 16, "padding around root content")
 	flag.UintVar(&maxDepth, "max-depth", 0, "if zero then no max depth is set, else will show only number of levels from root including")
-	flag.BoolVar(&includeSymbols, "symbols", true, "include symbols or not")
+	flag.BoolVar(&includeSymbols, "symbols", false, "include leaf symbols or not")
+	flag.BoolVar(&includePureSymbols, "symbols-pure", false, "include symbols that do not have package, likely non Go symbols")
+	flag.BoolVar(&showSizeBytes, "show-byte-size", true, "show bytes for each node")
+	flag.UintVar(&verbosity, "v", 0, "verbosity level of logging, the higher the more logs")
 	flag.Parse()
 
 	scanner := bufio.NewScanner(os.Stdin)
@@ -59,15 +66,21 @@ func main() {
 		lines = append(lines, scanner.Text())
 	}
 
-	parser := symtab.GoSymtabParser{}
+	parser := symtab.GoSymtabParser{
+		Verbosity: verbosity,
+	}
 	symtabFile, err := parser.ParseSymtab(lines)
 	if err != nil || symtabFile == nil {
 		log.Fatal(err)
 	}
 
 	converter := symtab.BasicSymtabConverter{
-		MaxDepth:       maxDepth,
-		IncludeSymbols: includeSymbols,
+		MaxDepth:           maxDepth,
+		IncludeSymbols:     includeSymbols,
+		IncludeUnknown:     includeUnknown,
+		IncludePureSymbols: includePureSymbols,
+		ShowSizeBytes:      showSizeBytes,
+		Verbosity:          verbosity,
 	}
 	tree := converter.SymtabFileToTreemap(*symtabFile)
 
