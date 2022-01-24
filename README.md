@@ -1,4 +1,4 @@
-# 🧱 Go binary size treemap
+# 🔍 Go binary size treemap
 
 ```
 $ go install github.com/nikolaydubina/go-binsize-treemap@latest
