@@ -38,6 +38,7 @@ func main() {
 		includeUnknown     bool
 		includePureSymbols bool
 		showSizeBytes      bool
+		outputCSV          bool
 		verbosity          uint
 	)
 
@@ -55,6 +56,7 @@ func main() {
 	flag.BoolVar(&includeSymbols, "symbols", false, "include leaf symbols or not")
 	flag.BoolVar(&includePureSymbols, "symbols-pure", false, "include symbols that do not have package, likely non Go symbols")
 	flag.BoolVar(&showSizeBytes, "show-byte-size", true, "show bytes for each node")
+	flag.BoolVar(&outputCSV, "csv", false, "print as csv instead")
 	flag.UintVar(&verbosity, "v", 0, "verbosity level of logging, the higher the more logs")
 	flag.Parse()
 
@@ -89,6 +91,13 @@ func main() {
 
 	treemap.SetNamesFromPaths(&tree)
 	treemap.CollapseRoot(&tree)
+
+	if outputCSV {
+		for name, node := range tree.Nodes {
+			fmt.Printf("%s,%f\n", name, node.Size)
+		}
+		return
+	}
 
 	uiBuilder := render.UITreeMapBuilder{
 		Colorer:     render.NoneColorer{},

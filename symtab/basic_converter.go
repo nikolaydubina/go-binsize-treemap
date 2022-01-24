@@ -112,19 +112,6 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 	return tree
 }
 
-func byteCountIEC(b uint) (float64, string) {
-	const unit = 1024
-	if b < unit {
-		return float64(b), "B"
-	}
-	div, exp := int64(unit), 0
-	for n := b / unit; n >= unit; n /= unit {
-		div *= unit
-		exp++
-	}
-	return float64(b) / float64(div), string("KMGTPE"[exp])
-}
-
 func unique(a []string) []string {
 	u := map[string]bool{}
 	var b []string
