@@ -1,6 +1,6 @@
 # 🔍 Go binary size SVG treemap
 
-> Make treemap breakdown of your Go binary
+> Make treemap breakdown of Go executable binary
 
 ```
 $ go install github.com/nikolaydubina/go-binsize-treemap@latest
@@ -9,12 +9,13 @@ $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 
 ## Disclaimer
 
-Should you be worried about your binary size?
-In 2022, few seconds of cats videos on tiktok are larger than your binary.
-So probably, you should not worry too much about it.
-However, this tool can be useful if you are studying compiler (e.g. interfaces, types, linking)
-This can be also useful if you want to study wich 3rd party dependencies are getting included and which take lots of size or have lots of code or embedded data.
-Next, this can be useful if you are doing `cgo` and want to see how much of C vs Go is included.
+Should you be worried about executable binary size?
+In 2022, few seconds of cat videos or even a single image is dozens of MBs.
+Transferring them over network is not a big deal either.
+So, probably, you should not worry too much about it.
+However, this tool can still be useful if you are studying compiler (e.g. interfaces, types, linking)
+Similarly, you can investigate what 3rd party dependencies are getting included in binary, which take large size, or embedded data.
+Next, you may use this when you doing `cgo` and want to see how much of C vs Go is included.
 Finally, I build this in spare time as another usecase for treemap tooling I built before.
 
 ## Examples
