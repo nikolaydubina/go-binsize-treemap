@@ -17,6 +17,8 @@ This can be also useful if you want to study wich 3rd party dependencies are get
 Next, this can be useful if you are doing `cgo` and want to see how much of C vs Go is included.
 Finally, I build this in spare time as another usecase for treemap tooling I built before.
 
+## Examples
+
 _<b><p align="center">github.com/gohugoio/hugo</p></b>_
 _<p align="center">62MB, this famous example of large Go project</p>_
 ![](./docs/hugo.svg)
