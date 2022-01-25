@@ -168,6 +168,146 @@ func Test_parseSymbolName(t *testing.T) {
 				SymbolParts:  []string{"Writer"},
 			},
 		},
+		{
+			rawSymbolName: `type..eq.struct { AccessToken string "json:\"access_token\""; ExpiresInSec int "json:\"expires_in\""; TokenType string "json:\"token_type\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { AccessToken string "json:\"access_token\""; TokenType string "json:\"token_type\""; IDToken string "json:\"id_token\""; ExpiresIn int64 "json:\"expires_in\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { ClientEmail string "json:\"client_email\""; PrivateKey string "json:\"private_key\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { MediaType string "json:\"mediaType\""; github.com/gohugoio/hugo/output.Alias.2 }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { Name string "json:\"name\""; PrivateKeyData string "json:\"privateKeyData\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { Name string "json:\"name\""; Type github.com/aws/aws-sdk-go/private/protocol/eventstream.valueType "json:\"type\""; Value interface {} "json:\"value\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { Text string "json:\"text\""; Start struct { Offset int "json:\"offset\""; Column int "json:\"column\"" } "json:\"start\""; End struct { Offset int "json:\"offset\""; Column int "json:\"column\"" } "json:\"end\""; Url string "json:\"url\""; Context string "json:\"context\"" }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { github.com/aws/aws-sdk-go/aws/session.filename string; github.com/aws/aws-sdk-go/aws/session.field *io.Reader; github.com/aws/aws-sdk-go/aws/session.errCode string }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { github.com/gohugoio/hugo/resources/page.PaginatorProvider; github.com/gohugoio/hugo/resources/resource.ResourceLinksProvider; github.com/gohugoio/hugo/hugolib.targetPather }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { github.com/gohugoio/hugo/resources/resource.ResourceLinksProvider; github.com/gohugoio/hugo/resources/page.ContentProvider; github.com/gohugoio/hugo/resources/page.PageRenderProvider; github.com/gohugoio/hugo/resources/page.PaginatorProvider; github.com/gohugoio/hugo/resources/page.TableOfContentsProvider; github.com/gohugoio/hugo/resources/page.AlternativeOutputFormatsProvider; github.com/gohugoio/hugo/hugolib.targetPather }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { github.com/gohugoio/hugo/source.FileWithoutOverlap; github.com/gohugoio/hugo/resources/page.DeprecatedWarningPageMethods1 }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { github.com/spf13/cobra.name string; github.com/spf13/cobra.called bool }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { golang.org/x/image/font/sfnt.glyphIndex golang.org/x/image/font/sfnt.GlyphIndex; golang.org/x/image/font/sfnt.dx int16; golang.org/x/image/font/sfnt.dy int16; golang.org/x/image/font/sfnt.hasTransform bool; golang.org/x/image/font/sfnt.transformXX int16; golang.org/x/image/font/sfnt.transformXY int16; golang.org/x/image/font/sfnt.transformYX int16; golang.org/x/image/font/sfnt.transformYY int16 }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { google.golang.org/protobuf/internal/pragma.NoUnkeyedLiterals; Message google.golang.org/protobuf/reflect/protoreflect.Message }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { google.golang.org/protobuf/internal/pragma.NoUnkeyedLiterals; Message google.golang.org/protobuf/reflect/protoreflect.Message; Flags uint8 }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { google.golang.org/protobuf/internal/pragma.NoUnkeyedLiterals; Source google.golang.org/protobuf/reflect/protoreflect.Message; Destination google.golang.org/protobuf/reflect/protoreflect.Message }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { gopkg.in/yaml%2ev2.references int; gopkg.in/yaml%2ev2.anchor int; gopkg.in/yaml%2ev2.serialized bool }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { io.ReadCloser; io.Writer }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { io.Writer; io.Closer }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
+		{
+			rawSymbolName: `type..eq.struct { runtime.gList; runtime.n int32 }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"type"},
+				SymbolParts:  []string{"", "eq", "struct"},
+			},
+		},
 	}
 	for _, tc := range tests {
 		t.Run(tc.rawSymbolName, func(t *testing.T) {

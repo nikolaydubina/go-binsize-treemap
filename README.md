@@ -7,9 +7,14 @@ $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 
 hugo, 62MB
 
-cockroach, 1.4MB
+cockroach, 71MB
 
 go-graphviz, 6.5MB
+
+## Description
+
+What is `go.itab`? This is interface related code.
+Refer to this [article](https://research.swtch.com/interfaces) by Russ Cox.
 
 ## TODO
 
@@ -34,6 +39,7 @@ go-graphviz, 6.5MB
 - https://github.com/golang/go/blob/master/src/cmd/nm/doc.go
 - https://linux.die.net/man/1/c++filt
 - https://github.com/goccy/go-graphviz
+- https://research.swtch.com/interfaces
 
 ## Appendix A: Strange Output / C++ / CGO
 

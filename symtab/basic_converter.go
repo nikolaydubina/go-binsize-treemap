@@ -15,11 +15,7 @@ const (
 // no heat
 // size is Bytes size
 type BasicSymtabConverter struct {
-	MaxDepth           uint // number of levels from root, including, if 0 then no limit
-	IncludeUnknown     bool
-	IncludeSymbols     bool
-	IncludePureSymbols bool
-	Verbosity          uint
+	MaxDepth uint // number of levels from root, including, if 0 then no limit
 }
 
 func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
@@ -35,19 +31,21 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 	hasParent := map[string]bool{}
 
 	for _, entry := range sf.Entries {
-		if !s.IncludeUnknown && entry.Type == Undefined {
+		// skip unrecognized. mostly this is is C/C++ or something else. TODO: what is this?
+		if entry.Type == Undefined {
 			continue
 		}
 
 		symbolName := parseSymbolName(entry.SymbolName)
-		if !s.IncludePureSymbols && len(symbolName.PackageParts) == 0 {
+
+		// skip non-go symbols. TODO: what is this?
+		if len(symbolName.PackageParts) == 0 {
 			continue
 		}
 
-		parts := symbolName.PackageParts
-		if s.IncludeSymbols {
-			parts = append(parts, symbolName.SymbolParts...)
-		}
+		var parts []string
+		parts = append(parts, symbolName.PackageParts...)
+		parts = append(parts, symbolName.SymbolParts...)
 
 		if s.MaxDepth > 0 && len(parts) > int(s.MaxDepth) {
 			parts = parts[:s.MaxDepth]
@@ -55,9 +53,14 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 
 		nodeName := strings.Join(parts, "/")
 
-		if _, ok := tree.Nodes[nodeName]; ok {
-			if s.Verbosity > 0 {
-				log.Printf("got duplicate node(%s)", nodeName)
+		if node, ok := tree.Nodes[nodeName]; ok {
+			// accumulate reported size if duplicate
+			tree.Nodes[nodeName] = treemap.Node{
+				Path:    node.Path,
+				Name:    node.Name,
+				Size:    node.Size + float64(entry.Size),
+				Heat:    node.Heat,
+				HasHeat: node.HasHeat,
 			}
 			continue
 		}

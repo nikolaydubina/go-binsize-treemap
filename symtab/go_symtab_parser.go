@@ -10,9 +10,7 @@ import (
 
 // GoSymtabParser parser symtab files produced by `go tool nm`.
 // https://pkg.go.dev/cmd/nm
-type GoSymtabParser struct {
-	Verbosity uint
-}
+type GoSymtabParser struct{}
 
 func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	var f SymtabFile
@@ -22,10 +20,8 @@ func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	for i, line := range lines {
 		e, err := parseGoSymtabLine(line)
 		if err != nil {
-			err := fmt.Errorf("error parasing symtab file at line(%d): %w", i, err)
-			if s.Verbosity > 0 {
-				log.Println(err.Error())
-			}
+			err := fmt.Errorf("error parasing symtab file at line num(%d): %w: line: %s", i, err, line)
+			log.Println(err.Error())
 			continue
 		}
 		f.Entries = append(f.Entries, e)
@@ -38,14 +34,22 @@ func parseGoSymtabLine(line string) (SymtabEntry, error) {
 	var rawAddress, rawSize, rawType, rawSymbolName string
 
 	fields := strings.Fields(line)
-	switch len(fields) {
-	case 4:
+	numFields := len(fields)
+	switch {
+	case numFields > 4:
+		// this CAN be Go symbols with type struct names that hard to parse: 10113fdc0        192 T type..eq.struct { github.com/gohugoio/hugo/source.FileWithoutOverlap; github.com/gohugoio/hugo/resources/page.DeprecatedWarningPageMethods1 }
+		// assuming so
+		rawAddress = fields[0]
+		rawSize = fields[1]
+		rawType = fields[2]
+		rawSymbolName = strings.Join(fields[3:], " ")
+	case numFields == 4:
 		// normal: "101ae42a0          4 R $f32.3de978d5"
 		rawAddress = fields[0]
 		rawSize = fields[1]
 		rawType = fields[2]
 		rawSymbolName = fields[3]
-	case 3:
+	case numFields == 3:
 		// undefined: "       4294971392 U _CFArrayGetCount"
 		rawSize = fields[0]
 		rawType = fields[1]

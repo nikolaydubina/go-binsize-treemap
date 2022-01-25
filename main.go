@@ -29,18 +29,14 @@ var grey = color.RGBA{128, 128, 128, 255}
 
 func main() {
 	var (
-		coverprofile       string
-		w                  float64
-		h                  float64
-		marginBox          float64
-		paddingBox         float64
-		padding            float64
-		maxDepth           uint
-		includeSymbols     bool
-		includeUnknown     bool
-		includePureSymbols bool
-		outputCSV          bool
-		verbosity          uint
+		coverprofile string
+		w            float64
+		h            float64
+		marginBox    float64
+		paddingBox   float64
+		padding      float64
+		maxDepth     uint
+		outputCSV    bool
 	)
 
 	flag.Usage = func() {
@@ -48,16 +44,13 @@ func main() {
 		flag.PrintDefaults()
 	}
 	flag.StringVar(&coverprofile, "coverprofile", "", "filename of input coverprofile (e.g. cover.out)")
-	flag.Float64Var(&w, "w", 1028, "width of output")
-	flag.Float64Var(&h, "h", 640, "height of output")
+	flag.Float64Var(&w, "w", 1024, "width of output")
+	flag.Float64Var(&h, "h", 1024, "height of output")
 	flag.Float64Var(&marginBox, "margin-box", 4, "margin between boxes")
 	flag.Float64Var(&paddingBox, "padding-box", 4, "padding between box border and content")
 	flag.Float64Var(&padding, "padding", 16, "padding around root content")
 	flag.UintVar(&maxDepth, "max-depth", 0, "if zero then no max depth is set, else will show only number of levels from root including")
-	flag.BoolVar(&includeSymbols, "symbols", false, "include leaf symbols or not")
-	flag.BoolVar(&includePureSymbols, "symbols-pure", false, "include symbols that do not have package, likely non Go symbols")
 	flag.BoolVar(&outputCSV, "csv", false, "print as csv instead")
-	flag.UintVar(&verbosity, "v", 0, "verbosity level of logging, the higher the more logs")
 	flag.Parse()
 
 	scanner := bufio.NewScanner(os.Stdin)
@@ -68,20 +61,14 @@ func main() {
 		lines = append(lines, scanner.Text())
 	}
 
-	parser := symtab.GoSymtabParser{
-		Verbosity: verbosity,
-	}
+	parser := symtab.GoSymtabParser{}
 	symtabFile, err := parser.ParseSymtab(lines)
 	if err != nil || symtabFile == nil {
 		log.Fatal(err)
 	}
 
 	converter := symtab.BasicSymtabConverter{
-		MaxDepth:           maxDepth,
-		IncludeSymbols:     includeSymbols,
-		IncludeUnknown:     includeUnknown,
-		IncludePureSymbols: includePureSymbols,
-		Verbosity:          verbosity,
+		MaxDepth: maxDepth,
 	}
 	tree := converter.SymtabFileToTreemap(*symtabFile)
 
