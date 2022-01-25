@@ -6,8 +6,10 @@ import (
 	"fmt"
 	"image/color"
 	"log"
+	"math"
 	"os"
 
+	"github.com/nikolaydubina/go-binsize-treemap/fmtbytecount"
 	"github.com/nikolaydubina/go-binsize-treemap/symtab"
 	"github.com/nikolaydubina/treemap"
 	"github.com/nikolaydubina/treemap/render"
@@ -37,7 +39,6 @@ func main() {
 		includeSymbols     bool
 		includeUnknown     bool
 		includePureSymbols bool
-		showSizeBytes      bool
 		outputCSV          bool
 		verbosity          uint
 	)
@@ -55,7 +56,6 @@ func main() {
 	flag.UintVar(&maxDepth, "max-depth", 0, "if zero then no max depth is set, else will show only number of levels from root including")
 	flag.BoolVar(&includeSymbols, "symbols", false, "include leaf symbols or not")
 	flag.BoolVar(&includePureSymbols, "symbols-pure", false, "include symbols that do not have package, likely non Go symbols")
-	flag.BoolVar(&showSizeBytes, "show-byte-size", true, "show bytes for each node")
 	flag.BoolVar(&outputCSV, "csv", false, "print as csv instead")
 	flag.UintVar(&verbosity, "v", 0, "verbosity level of logging, the higher the more logs")
 	flag.Parse()
@@ -81,15 +81,14 @@ func main() {
 		IncludeSymbols:     includeSymbols,
 		IncludeUnknown:     includeUnknown,
 		IncludePureSymbols: includePureSymbols,
-		ShowSizeBytes:      showSizeBytes,
 		Verbosity:          verbosity,
 	}
 	tree := converter.SymtabFileToTreemap(*symtabFile)
 
-	sizeImputer := treemap.SumSizeImputer{EmptyLeafSize: 1}
+	sizeImputer := treemap.SumSizeImputer{EmptyLeafSize: 0}
 	sizeImputer.ImputeSize(tree)
 
-	treemap.SetNamesFromPaths(&tree)
+	updateNodeNamesWithByteSize(&tree)
 	treemap.CollapseRoot(&tree)
 
 	if outputCSV {
@@ -107,4 +106,24 @@ func main() {
 	renderer := render.SVGRenderer{}
 
 	os.Stdout.Write(renderer.Render(spec, w, h))
+}
+
+func updateNodeNamesWithByteSize(tree *treemap.Tree) {
+	for name, node := range tree.Nodes {
+		count, suffix := fmtbytecount.ByteCountIEC(uint(math.Floor(node.Size)))
+		nameWithSize := fmt.Sprintf("%s %.2f%sB", node.Name, count, suffix)
+
+		// for secret root just size
+		if name == symtab.RootNodeName {
+			nameWithSize = fmt.Sprintf("%.2f%sB", count, suffix)
+		}
+
+		tree.Nodes[name] = treemap.Node{
+			Path:    node.Path,
+			Name:    nameWithSize,
+			Size:    node.Size,
+			Heat:    node.Heat,
+			HasHeat: node.HasHeat,
+		}
+	}
 }

@@ -2,11 +2,14 @@ package symtab
 
 import (
 	"errors"
-	"fmt"
 	"log"
 	"strings"
 
 	"github.com/nikolaydubina/treemap"
+)
+
+const (
+	RootNodeName = "some-secret-string-binsize"
 )
 
 // no heat
@@ -16,7 +19,6 @@ type BasicSymtabConverter struct {
 	IncludeUnknown     bool
 	IncludeSymbols     bool
 	IncludePureSymbols bool
-	ShowSizeBytes      bool
 	Verbosity          uint
 }
 
@@ -60,16 +62,9 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 			continue
 		}
 
-		nodeNameDisplay := nodeName
-		if s.ShowSizeBytes {
-			count, suffix := byteCountIEC(entry.Size)
-			nodeNameDisplay = fmt.Sprintf("%s %f.1%s", nodeNameDisplay, count, suffix)
-		}
-
 		tree.Nodes[nodeName] = treemap.Node{
 			Path: nodeName,
 			Size: float64(entry.Size),
-			Name: nodeNameDisplay,
 		}
 
 		hasParent[parts[0]] = false
@@ -103,7 +98,7 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 	case len(roots) == 0:
 		log.Fatalf(errors.New("no roots, possible cycle in graph").Error())
 	case len(roots) > 1:
-		tree.Root = "some-secret-string"
+		tree.Root = RootNodeName
 		tree.To[tree.Root] = roots
 	default:
 		tree.Root = roots[0]

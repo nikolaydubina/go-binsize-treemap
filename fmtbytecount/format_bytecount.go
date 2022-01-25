@@ -1,6 +1,6 @@
-package symtab
+package fmtbytecount
 
-func byteCountIEC(b uint) (float64, string) {
+func ByteCountIEC(b uint) (float64, string) {
 	const unit = 1024
 	if b < unit {
 		return float64(b), "B"
