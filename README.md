@@ -10,7 +10,7 @@ $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ## Disclaimer
 
 Should you be worried about executable binary size?
-In 2022, few seconds of cat videos or even a single image is dozens of MBs.
+In 2022, few seconds of cat videos or even a single image is tens of MBs.
 Transferring them over network is not a big deal either.
 So, probably, you should not worry too much about it.
 However, this tool can still be useful if you are studying compiler (e.g. interfaces, types, linking)
