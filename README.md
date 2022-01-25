@@ -10,10 +10,10 @@ $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ## Disclaimer
 
 Should you be worried about your binary size?
-In 2022, few secon videos of cats on tiktok are larger than your binary.
+In 2022, few seconds of cats videos on tiktok are larger than your binary.
 So probably, you should not worry too much about it.
-However, this tool can be useful if you studying compiler (thinks like interfaces, types, etc.)
-This can be also useful if you want to study wich 3rd party dependencies are getting included and take lots of binary size.
+However, this tool can be useful if you are studying compiler (e.g. interfaces, types, linking)
+This can be also useful if you want to study wich 3rd party dependencies are getting included and which take lots of size or have lots of code or embedded data.
 Next, this can be useful if you are doing `cgo` and want to see how much of C vs Go is included.
 Finally, I build this in spare time as another usecase for treemap tooling I built before.
 
