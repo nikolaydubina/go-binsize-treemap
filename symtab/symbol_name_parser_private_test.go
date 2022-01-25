@@ -169,6 +169,13 @@ func Test_parseSymbolName(t *testing.T) {
 			},
 		},
 		{
+			rawSymbolName: `go.itab.*cloud.google.com/go/iam/credentials/apiv1.IamCredentialsClient,interface { SignBlob(context.Context, *google.golang.org/genproto/googleapis/iam/credentials/v1.SignBlobRequest, ...github.com/googleapis/gax-go/v2.CallOption) (*google.golang.org/genproto/googleapis/iam/credentials/v1.SignBlobResponse, error) }`,
+			expSymbolName: SymbolName{
+				PackageParts: []string{"go.itab.*cloud.google.com", "go", "iam", "credentials", "apiv1"},
+				SymbolParts:  []string{"IamCredentialsClient"},
+			},
+		},
+		{
 			rawSymbolName: `type..eq.struct { AccessToken string "json:\"access_token\""; ExpiresInSec int "json:\"expires_in\""; TokenType string "json:\"token_type\"" }`,
 			expSymbolName: SymbolName{
 				PackageParts: []string{"type"},

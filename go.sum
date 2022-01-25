@@ -2,3 +2,5 @@ github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/nikolaydubina/treemap v1.1.0 h1:HqvoS1Z6+XlJhHgvjVKuGZnpePm8AWjGMe95Ga2hg2w=
 github.com/nikolaydubina/treemap v1.1.0/go.mod h1:8+wLGh917AyeJqBN1D5KM26tv6W/XfvsY+nfJd04/u8=
+github.com/nikolaydubina/treemap v1.2.0 h1:ThpX3MQO853ihcOUkRExaqSIt/HQ+yU60kyVTu84Nfs=
+github.com/nikolaydubina/treemap v1.2.0/go.mod h1:8+wLGh917AyeJqBN1D5KM26tv6W/XfvsY+nfJd04/u8=

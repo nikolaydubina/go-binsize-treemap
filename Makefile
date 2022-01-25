@@ -1,5 +1,5 @@
 docs: 
-	-rm docs/*.svg
+	-rm docs/*
 	cat testdata/go-graphviz.symtab | ./go-binsize-treemap  -csv > docs/go-graphviz.csv
 	cat testdata/go-graphviz.symtab | ./go-binsize-treemap > docs/go-graphviz.svg
 	cat testdata/go-graphviz.symtab | ./go-binsize-treemap -w 4096 -h 4096 > docs/go-graphviz-4096x4096.svg

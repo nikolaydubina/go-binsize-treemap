@@ -1,6 +1,8 @@
 package symtab
 
-import "strings"
+import (
+	"strings"
+)
 
 type SymbolName struct {
 	PackageParts []string
@@ -35,8 +37,15 @@ func parseSymbolName(r string) SymbolName {
 	}
 
 	// go itab entires can have single comma. treat it as as full path, replace that comma with slash to form path.
-	if strings.Count(r, ",") == 1 && strings.HasPrefix(r, "go.itab.") {
-		r = strings.ReplaceAll(r, ",", "/")
+	if strings.HasPrefix(r, "go.itab.") {
+		numCommas := strings.Count(r, ",")
+		if numCommas > 1 {
+			// some go itab entries can be complex, with interfaces. ignoring symbols for them.
+			// TODO: support go itab interfaces
+			r = r[:strings.Index(r, ",")]
+		} else {
+			r = strings.ReplaceAll(r, ",", "/")
+		}
 	}
 
 	// pure symbol

@@ -74,12 +74,15 @@ func main() {
 
 	sizeImputer := treemap.SumSizeImputer{EmptyLeafSize: 0}
 	sizeImputer.ImputeSize(tree)
-	treemap.CollapseRoot(&tree)
 	treemap.SetNamesFromPaths(&tree)
+	treemap.CollapseLongPaths(&tree)
 	updateNodeNamesWithByteSize(&tree)
 
 	if outputCSV {
 		for name, node := range tree.Nodes {
+			if name == symtab.RootNodeName {
+				continue
+			}
 			fmt.Printf("%s,%f\n", name, node.Size)
 		}
 		return

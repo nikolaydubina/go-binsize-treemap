@@ -1,26 +1,34 @@
 # 🔍 Go binary size SVG treemap
 
+> Make treemap breakdown of your Go binary
+
 ```
 $ go install github.com/nikolaydubina/go-binsize-treemap@latest
 $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ```
 
-hugo, 62MB
+_<b><p align="center">github.com/gohugoio/hugo</p></b>_
+_<p align="center">62MB, this famous example of large Go project</p>_
+![](./docs/hugo.svg)
 
-cockroach, 71MB
+_<b><p align="center">github.com/cockroachdb/cockroach</p></b>_
+_<p align="center">71MB, this famous db is building with C++</p>_
+![](./docs/cockroach.svg)
 
-go-graphviz, 6.5MB
+_<b><p align="center">github.com/goccy/go-graphviz</p></b>_
+_<p align="center">6.5MB, this project has CGO and builds with lots of graphviz code in C</p>_
+![](./docs/go-graphviz.svg)
 
 ## Description
 
 What is `go.itab`? This is interface related code.
 Refer to this [article](https://research.swtch.com/interfaces) by Russ Cox.
 
-## TODO
+## Known Issues and TODOs
 
+- [ ] Size slightly mismatches actual binary size. Including unknown does not help.
 - [ ] C++
 - [ ] identify go:embed
-- [ ] collapse long chains besides root
 - [ ] color by type + increasing luminance (sys; user; c++; go:embed; etc.)
 - [ ] color by symbol type
 - [ ] heat by ????
@@ -49,3 +57,22 @@ Note, c++ support is work in progress.
 ```
 $ go tool nm -size <binary finename> | c++filt | go-binsize-treemap > binsize.svg
 ```
+
+### Appendix B: Large dimensions and lots of details
+
+If you set dimensions very large you can see lots of details and navigate map.
+
+4096x4096 is recommended
+
+![](./docs/hugo-4096x4096.svg)
+
+... but you can go much higher
+![](./docs/hugo-16384x16384.svg)
+
+### Appendix C: Small dimensions and informative preview
+
+You can generate small preview of project that fits for embedding in README for example.
+
+1024x256 is recommended
+
+![](./docs/hugo-1024x256.svg)
