@@ -26,8 +26,12 @@ func EqSymbolName(a, b SymbolName) bool {
 	}
 	return true
 }
-
 func parseSymbolName(r string) SymbolName {
+	// go itab entires can have single comma. treat it as as full path, replace that comma with slash to form path.
+	if strings.Count(r, ",") == 1 && strings.HasPrefix(r, "go.itab.") {
+		r = strings.ReplaceAll(r, ",", "/")
+	}
+
 	// pure symbol
 	if !strings.ContainsAny(r, "./") {
 		return SymbolName{SymbolParts: []string{r}}

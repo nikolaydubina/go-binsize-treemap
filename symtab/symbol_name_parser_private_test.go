@@ -154,6 +154,20 @@ func Test_parseSymbolName(t *testing.T) {
 				SymbolParts:  []string{"", "gobytes", "2"},
 			},
 		},
+		{
+			rawSymbolName: "go.itab.vendor/golang.org/x/net/http/httpproxy.allMatch,vendor/golang.org/x/net/http/httpproxy.matcher",
+			expSymbolName: SymbolName{
+				PackageParts: []string{"go.itab.vendor", "golang.org", "x", "net", "http", "httpproxy.allMatch", "vendor", "golang.org", "x", "net", "http", "httpproxy"},
+				SymbolParts:  []string{"matcher"},
+			},
+		},
+		{
+			rawSymbolName: "go.itab.net/http.persistConnWriter,io.Writer",
+			expSymbolName: SymbolName{
+				PackageParts: []string{"go.itab.net", "http.persistConnWriter", "io"},
+				SymbolParts:  []string{"Writer"},
+			},
+		},
 	}
 	for _, tc := range tests {
 		t.Run(tc.rawSymbolName, func(t *testing.T) {
