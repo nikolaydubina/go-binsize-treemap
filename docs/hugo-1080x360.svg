@@ -20,45 +20,13 @@
 
 
 <g>
-	<rect x="928.549739" y="181.127181" width="69.584487" height="62.684688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(936.549739,196.727181) scale(0.159478)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.itab.*google.golang.org 188.25KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1018.292225" y="251.811868" width="14.828360" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="994.283902" y="305.550739" width="7.908596" height="6.592295" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
-	<rect x="928.549739" y="251.811868" width="24.003822" height="37.235441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(936.549739,267.411868) scale(0.037897)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.itab.vendor 49.70KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1010.192498" y="299.140786" width="0.054407" height="0.816096" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1043.173141" y="280.743837" width="0.990350" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="1022.980911" y="280.743837" width="3.057650" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -77,63 +45,13 @@
 
 
 <g>
+	<rect x="1010.192498" y="307.956882" width="0.054407" height="0.420502" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
 	<rect x="994.283902" y="331.244623" width="7.908596" height="0.755377" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="384.531589" y="41.600000" width="348.531589" height="290.400000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(392.531589,57.200000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">typerel 3.57MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="741.063178" y="41.600000" width="179.486561" height="290.400000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(749.063178,57.200000) scale(0.654994)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.itab.*github.com 1.88MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="960.553562" y="316.600119" width="25.730341" height="15.399881" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1010.192498" y="280.743837" width="4.788413" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="994.283902" y="251.811868" width="16.008323" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1041.120585" y="251.811868" width="10.879415" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="960.553562" y="251.811868" width="25.730341" height="26.357610" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -146,13 +64,37 @@
 	text-anchor="start"
 	transform="translate(36.000000,57.200000) scale(1.000000)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">type 3.57MB</text>
+	data-math="N">typerel 3.57MB</text>
 		
 </g>
 
 
 <g>
-	<rect x="994.283902" y="305.550739" width="7.908596" height="6.592295" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="1010.192498" y="299.140786" width="0.054407" height="0.816096" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="994.283902" y="280.743837" width="7.908596" height="16.806902" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="994.283902" y="320.143034" width="7.908596" height="3.101589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1010.192498" y="290.211663" width="0.054407" height="0.929123" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1010.192498" y="280.743837" width="4.788413" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -171,19 +113,7 @@
 
 
 <g>
-	<rect x="994.283902" y="320.143034" width="7.908596" height="3.101589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1010.192498" y="307.956882" width="0.054407" height="0.420502" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1034.038561" y="280.743837" width="1.134580" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="994.283902" y="251.811868" width="16.008323" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -202,19 +132,7 @@
 
 
 <g>
-	<rect x="1022.980911" y="280.743837" width="3.057650" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1010.192498" y="290.211663" width="0.054407" height="0.929123" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="994.283902" y="280.743837" width="7.908596" height="16.806902" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="960.553562" y="316.600119" width="25.730341" height="15.399881" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -226,20 +144,83 @@
 
 
 <g>
-	<rect x="936.549739" y="202.727181" width="50.895789" height="33.084688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="960.553562" y="251.811868" width="25.730341" height="26.357610" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1043.173141" y="280.743837" width="0.990350" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="741.063178" y="41.600000" width="179.486561" height="290.400000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(944.549739,218.327181) scale(0.213822)"
+	transform="translate(749.063178,57.200000) scale(0.654994)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">protobuf 180.03KB</text>
+	data-math="N">go.itab.*github.com 1.88MB</text>
 		
 </g>
 
 
 <g>
-	<rect x="936.549739" y="273.411868" width="8.003822" height="7.635441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="1041.120585" y="251.811868" width="10.879415" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="928.549739" y="251.811868" width="24.003822" height="37.235441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(936.549739,267.411868) scale(0.037897)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go.itab.vendor 49.70KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="928.549739" y="181.127181" width="69.584487" height="62.684688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(936.549739,196.727181) scale(0.159478)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go.itab.*google.golang.org 188.25KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="384.531589" y="41.600000" width="348.531589" height="290.400000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(392.531589,57.200000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">type 3.57MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1018.292225" y="251.811868" width="14.828360" height="20.931969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1034.038561" y="280.743837" width="1.134580" height="1.467826" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -269,26 +250,13 @@
 
 
 <g>
-	<rect x="749.063178" y="63.200000" width="163.486561" height="252.851407" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="936.549739" y="318.647310" width="8.003822" height="5.352690" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(757.063178,78.800000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">aws 1.82MB</text>
-		
 </g>
 
 
 <g>
 	<rect x="1002.283902" y="263.811868" width="0.008323" height="0.920262" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="936.549739" y="318.647310" width="8.003822" height="5.352690" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -313,20 +281,33 @@
 
 
 <g>
-	<rect x="944.549739" y="224.327181" width="34.616568" height="3.484688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="749.063178" y="63.200000" width="163.486561" height="252.851407" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(757.063178,78.800000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">aws 1.82MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="936.549739" y="273.411868" width="8.003822" height="7.635441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
-	<rect x="757.063178" y="84.800000" width="147.486561" height="223.251407" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="936.549739" y="202.727181" width="50.895789" height="33.084688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(765.063178,100.400000) scale(0.805677)"
+	transform="translate(944.549739,218.327181) scale(0.213822)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">aws-sdk-go 1.82MB</text>
+	data-math="N">protobuf 180.03KB</text>
 		
 </g>
 
@@ -345,15 +326,21 @@
 
 
 <g>
-	<rect x="765.063178" y="106.400000" width="131.486561" height="193.500094" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="757.063178" y="84.800000" width="147.486561" height="223.251407" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(773.063178,122.000000) scale(0.859275)"
+	transform="translate(765.063178,100.400000) scale(0.805677)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">service 1.82MB</text>
+	data-math="N">aws-sdk-go 1.82MB</text>
 		
+</g>
+
+
+<g>
+	<rect x="944.549739" y="224.327181" width="34.616568" height="3.484688" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
 </g>
 
 
@@ -371,6 +358,25 @@
 
 
 <g>
+	<rect x="765.063178" y="106.400000" width="131.486561" height="193.500094" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(773.063178,122.000000) scale(0.859275)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">service 1.82MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="960.549739" y="128.000000" width="52.176147" height="13.127181" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
 	<rect x="773.063178" y="128.000000" width="115.486561" height="163.690240" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
@@ -380,12 +386,6 @@
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
 	data-math="N">s3.S3 1.82MB</text>
 		
-</g>
-
-
-<g>
-	<rect x="960.549739" y="128.000000" width="52.176147" height="13.127181" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
 </g>
 
 

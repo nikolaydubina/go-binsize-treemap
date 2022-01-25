@@ -33,7 +33,32 @@
 
 
 <g>
-	<rect x="1007.220822" y="1021.571215" width="3.918090" height="2.680897" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="934.238028" y="938.847013" width="27.578412" height="24.478441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="28.000000" y="569.410326" width="579.769441" height="482.589674" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(36.000000,585.010326) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">runtime 13.57MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="992.876564" y="989.286942" width="9.829184" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="969.816441" y="964.414353" width="18.428730" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -52,49 +77,6 @@
 
 
 <g>
-	<rect x="992.876564" y="1031.560283" width="6.344258" height="7.347163" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="934.238028" y="938.847013" width="27.578412" height="24.478441" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="969.816441" y="1026.031863" width="15.060123" height="9.096546" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1042.011518" y="964.414353" width="9.988482" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="853.639289" y="1024.641284" width="41.482557" height="27.358716" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="735.391086" y="969.881764" width="110.248203" height="82.118236" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(743.391086,985.481764) scale(0.654501)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">crypto 513.56KB</text>
-		
-</g>
-
-
-<g>
 	<rect x="903.121845" y="938.847013" width="23.116183" height="34.371863" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
@@ -103,468 +85,6 @@
 	transform="translate(911.121845,954.447013) scale(0.074127)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
 	data-math="N">os 63.54KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="615.769441" y="270.547838" width="215.250301" height="334.921337" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(623.769441,286.147838) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">type 3.60MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="853.639289" y="899.729734" width="41.482557" height="35.647604" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(861.639289,915.329734) scale(0.176962)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">regexp 104.09KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1010.705748" y="989.286942" width="9.714404" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="934.238028" y="1003.496340" width="27.578412" height="20.983129" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1044.841367" y="989.286942" width="7.158633" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="969.816441" y="1043.128409" width="15.060123" height="8.871591" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1002.102072" y="938.847013" width="21.277083" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="945.944917" y="776.460134" width="54.941889" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(953.944917,792.060134) scale(0.115898)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.itab.*google.golang.org 200.80KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="969.816441" y="989.286942" width="15.060123" height="11.008660" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1051.403491" y="1010.472060" width="0.596509" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="934.238028" y="971.325455" width="27.578412" height="24.170886" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="969.816441" y="1008.295602" width="15.060123" height="9.736260" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1030.908381" y="1010.472060" width="2.791755" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="839.019742" y="270.547838" width="212.980258" height="334.921337" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(847.019742,286.147838) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">typerel 3.57MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="992.876564" y="1010.472060" width="6.344258" height="13.088223" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="864.951357" y="613.469174" width="187.048643" height="154.990960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(872.951357,629.069174) scale(0.742399)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">google.golang.org 1.50MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="853.639289" y="776.460134" width="84.305628" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(861.639289,792.060134) scale(0.418539)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">encoding 294.48KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="615.769441" y="776.460134" width="111.621645" height="166.288046" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(623.769441,792.060134) scale(0.498029)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">golang.org 1004.76KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1024.662644" y="899.729734" width="27.337356" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(1032.662644,915.329734) scale(0.073811)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">compress 66.62KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1007.220822" y="1042.426337" width="3.918090" height="0.786831" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="903.121845" y="1021.271733" width="23.116183" height="30.728267" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(911.121845,1036.871733) scale(0.046329)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">internal 58.08KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="28.000000" y="41.600000" width="579.769441" height="519.810326" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(36.000000,57.200000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">github.com 14.60MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="907.438833" y="842.658989" width="45.112857" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(915.438833,858.258989) scale(0.216614)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">image 146.08KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="735.391086" y="776.460134" width="110.248203" height="91.710044" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(743.391086,792.060134) scale(0.818127)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">net 568.22KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="28.000000" y="569.410326" width="579.769441" height="482.589674" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(36.000000,585.010326) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">runtime 13.57MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1041.700136" y="1010.472060" width="1.703355" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="992.876564" y="1046.907446" width="6.344258" height="5.092554" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1028.420153" y="989.286942" width="8.421215" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="969.816441" y="964.414353" width="18.428730" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="853.639289" y="943.377338" width="41.482557" height="34.740130" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(861.639289,958.977338) scale(0.165902)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">reflect 101.92KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1019.138912" y="1010.472060" width="3.769469" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1007.220822" y="1051.213169" width="3.918090" height="0.786831" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="996.245170" y="964.414353" width="17.874737" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="615.769441" y="950.748180" width="111.621645" height="101.251820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(623.769441,966.348180) scale(0.368911)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.itab.github.com 629.83KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="903.121845" y="899.729734" width="34.316142" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(911.121845,915.329734) scale(0.100417)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">gocloud.dev 79.77KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="945.437987" y="899.729734" width="32.895209" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(953.437987,915.329734) scale(0.073330)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go.opencensus.io 77.09KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1022.119907" y="964.414353" width="11.891611" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="615.769441" y="41.600000" width="436.230559" height="220.947838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(623.769441,57.200000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">go 4.79MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="853.639289" y="842.658989" width="45.799545" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(861.639289,858.258989) scale(0.238778)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">text 147.97KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1031.379155" y="938.847013" width="20.620845" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1011.853736" y="842.658989" width="40.146264" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(1019.853736,858.258989) scale(0.089830)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">type..eq.github.com 132.42KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="969.816441" y="938.847013" width="24.285632" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="735.391086" y="876.170178" width="110.248203" height="85.711587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(743.391086,891.770178) scale(0.654501)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">vendor 534.04KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="903.121845" y="981.218877" width="23.116183" height="32.052856" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(911.121845,996.818877) scale(0.067388)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">fmt 60.06KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1007.220822" y="1010.472060" width="3.918090" height="3.099155" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="992.876564" y="989.286942" width="9.829184" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="960.551690" y="842.658989" width="43.302046" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(968.551690,858.258989) scale(0.218766)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">math 141.10KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1007.220822" y="1032.252112" width="3.918090" height="2.174226" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1008.886805" y="776.460134" width="43.113195" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(1016.886805,792.060134) scale(0.166135)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">gopkg.in 163.07KB</text>
 		
 </g>
 
@@ -583,13 +103,665 @@
 
 
 <g>
+	<rect x="735.391086" y="969.881764" width="110.248203" height="82.118236" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(743.391086,985.481764) scale(0.654501)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">crypto 513.56KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="996.245170" y="964.414353" width="17.874737" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="615.769441" y="41.600000" width="436.230559" height="220.947838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(623.769441,57.200000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go 4.79MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1007.220822" y="1010.472060" width="3.918090" height="3.099155" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
 	<rect x="934.238028" y="1032.479469" width="27.578412" height="19.520531" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
+	<rect x="853.639289" y="899.729734" width="41.482557" height="35.647604" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(861.639289,915.329734) scale(0.176962)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">regexp 104.09KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="992.876564" y="1031.560283" width="6.344258" height="7.347163" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="903.121845" y="981.218877" width="23.116183" height="32.052856" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(911.121845,996.818877) scale(0.067388)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">fmt 60.06KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1002.102072" y="938.847013" width="21.277083" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="969.816441" y="1008.295602" width="15.060123" height="9.736260" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1008.886805" y="776.460134" width="43.113195" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(1016.886805,792.060134) scale(0.166135)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">gopkg.in 163.07KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="615.769441" y="950.748180" width="111.621645" height="101.251820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(623.769441,966.348180) scale(0.368911)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go.itab.github.com 629.83KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="907.438833" y="842.658989" width="45.112857" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(915.438833,858.258989) scale(0.216614)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">image 146.08KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1007.220822" y="1021.571215" width="3.918090" height="2.680897" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1031.379155" y="938.847013" width="20.620845" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="615.769441" y="776.460134" width="111.621645" height="166.288046" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(623.769441,792.060134) scale(0.498029)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">golang.org 1004.76KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="945.437987" y="899.729734" width="32.895209" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(953.437987,915.329734) scale(0.073330)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go.opencensus.io 77.09KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1007.220822" y="1051.213169" width="3.918090" height="0.786831" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="934.238028" y="971.325455" width="27.578412" height="24.170886" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="969.816441" y="1043.128409" width="15.060123" height="8.871591" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1044.841367" y="989.286942" width="7.158633" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1022.119907" y="964.414353" width="11.891611" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="992.876564" y="1010.472060" width="6.344258" height="13.088223" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="853.639289" y="943.377338" width="41.482557" height="34.740130" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(861.639289,958.977338) scale(0.165902)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">reflect 101.92KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1041.700136" y="1010.472060" width="1.703355" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="969.816441" y="1026.031863" width="15.060123" height="9.096546" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1028.420153" y="989.286942" width="8.421215" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1007.220822" y="1032.252112" width="3.918090" height="2.174226" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1011.853736" y="842.658989" width="40.146264" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(1019.853736,858.258989) scale(0.089830)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">type..eq.github.com 132.42KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="992.876564" y="1046.907446" width="6.344258" height="5.092554" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="735.391086" y="876.170178" width="110.248203" height="85.711587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(743.391086,891.770178) scale(0.654501)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">vendor 534.04KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1051.403491" y="1010.472060" width="0.596509" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="853.639289" y="842.658989" width="45.799545" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(861.639289,858.258989) scale(0.238778)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">text 147.97KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1024.662644" y="899.729734" width="27.337356" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(1032.662644,915.329734) scale(0.073811)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">compress 66.62KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="839.019742" y="270.547838" width="212.980258" height="334.921337" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(847.019742,286.147838) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">typerel 3.57MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="864.951357" y="613.469174" width="187.048643" height="154.990960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(872.951357,629.069174) scale(0.742399)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">google.golang.org 1.50MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="903.121845" y="1021.271733" width="23.116183" height="30.728267" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(911.121845,1036.871733) scale(0.046329)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">internal 58.08KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1019.138912" y="1010.472060" width="3.769469" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1007.220822" y="1042.426337" width="3.918090" height="0.786831" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="945.944917" y="776.460134" width="54.941889" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(953.944917,792.060134) scale(0.115898)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">go.itab.*google.golang.org 200.80KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="969.816441" y="938.847013" width="24.285632" height="17.567339" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="969.816441" y="989.286942" width="15.060123" height="11.008660" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1010.705748" y="989.286942" width="9.714404" height="13.185117" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1042.011518" y="964.414353" width="9.988482" height="16.872589" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="615.769441" y="270.547838" width="215.250301" height="334.921337" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(623.769441,286.147838) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">type 3.60MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="853.639289" y="776.460134" width="84.305628" height="58.198855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(861.639289,792.060134) scale(0.418539)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">encoding 294.48KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="28.000000" y="41.600000" width="579.769441" height="519.810326" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(36.000000,57.200000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">github.com 14.60MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="853.639289" y="1024.641284" width="41.482557" height="27.358716" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="934.238028" y="1003.496340" width="27.578412" height="20.983129" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="960.551690" y="842.658989" width="43.302046" height="49.070745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(968.551690,858.258989) scale(0.218766)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">math 141.10KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="903.121845" y="899.729734" width="34.316142" height="31.117280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(911.121845,915.329734) scale(0.100417)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">gocloud.dev 79.77KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1030.908381" y="1010.472060" width="2.791755" height="0.787599" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="735.391086" y="776.460134" width="110.248203" height="91.710044" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(743.391086,792.060134) scale(0.818127)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">net 568.22KB</text>
+		
+</g>
+
+
+<g>
 	<rect x="994.333196" y="921.329734" width="13.197162" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="1014.597616" width="0.828898" height="0.660368" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="538.839172" y="954.942503" width="7.632301" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="568.920850" y="954.942503" width="3.586034" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="580.506884" y="954.942503" width="3.143819" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="968.346048" width="0.828898" height="1.799559" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="554.471474" y="954.942503" width="6.449376" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="883.318128" width="46.260652" height="30.933287" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(510.096949,898.918128) scale(0.157608)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">findfunctab 111.38KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="518.877309" y="954.942503" width="11.961863" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="978.145607" width="0.828898" height="1.799559" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="1005.937248" width="0.828898" height="0.660368" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="998.053658" width="8.780361" height="11.330257" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="977.301668" width="8.780361" height="12.751990" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="1035.115828" width="8.780361" height="8.884172" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="922.251415" width="44.512153" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="36.000000" y="591.010326" width="458.096949" height="452.989674" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(44.000000,606.610326) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">pclntab 11.06MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="502.096949" y="591.010326" width="97.672492" height="284.307802" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(510.096949,606.610326) scale(0.654427)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">rodata 1.59MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="591.650703" y="954.942503" width="0.490529" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="1017.383915" width="8.780361" height="9.731913" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="502.096949" y="954.942503" width="8.780361" height="14.359165" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="997.075476" width="0.828898" height="0.861772" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="556.357601" y="883.318128" width="43.411840" height="30.933287" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(564.357601,898.918128) scale(0.124148)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">textsectionmap 105.53KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="554.609102" y="922.251415" width="20.103181" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="518.877309" y="987.945165" width="0.828898" height="1.130310" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="582.712282" y="922.251415" width="17.057159" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -601,7 +773,26 @@
 
 
 <g>
-	<rect x="861.639289" y="1036.641284" width="0.233365" height="7.358716" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="623.769441" y="635.069174" width="214.038349" height="125.390960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(631.769441,650.669174) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">aws 1.82MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="845.807790" y="635.069174" width="3.143567" height="75.847019" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="845.807790" y="718.916194" width="3.143567" height="15.730289" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -674,15 +865,64 @@
 
 
 <g>
-	<rect x="623.769441" y="292.147838" width="199.250301" height="302.135438" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="623.769441" y="63.200000" width="260.255852" height="191.347838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(631.769441,307.747838) scale(1.000000)"
+	transform="translate(631.769441,78.800000) scale(1.000000)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">* 3.57MB</text>
+	data-math="N">func 3.00MB</text>
 		
+</g>
+
+
+<g>
+	<rect x="955.652298" y="240.499907" width="15.482129" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="892.025293" y="63.200000" width="151.974707" height="169.299907" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(900.025293,78.800000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">string 1.59MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="1021.568888" y="240.499907" width="9.378627" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="979.134428" y="240.499907" width="13.803512" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="892.025293" y="240.499907" width="55.627005" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1038.947515" y="240.499907" width="5.052485" height="13.860288" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1000.937940" y="240.499907" width="12.630948" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
 </g>
 
 
@@ -693,13 +933,112 @@
 
 
 <g>
-	<rect x="942.238028" y="1015.496340" width="11.578412" height="0.983129" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="1016.886805" y="798.060134" width="27.113195" height="28.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
-	<rect x="953.944917" y="798.060134" width="36.982248" height="28.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="623.769441" y="972.348180" width="94.530391" height="71.651820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(631.769441,987.948180) scale(0.481191)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">gohugoio 623.20KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="931.714226" y="864.258989" width="5.227175" height="3.105000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="915.438833" y="878.088164" width="8.275392" height="5.641570" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="915.438833" y="864.258989" width="8.275392" height="5.829175" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="623.769441" y="798.060134" width="95.621645" height="136.688046" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(631.769441,813.660134) scale(0.753993)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">x 1004.76KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="962.593193" y="921.329734" width="0.274752" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="953.437987" y="921.329734" width="1.155206" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="861.639289" y="964.977338" width="0.684952" height="5.140130" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1019.853736" y="879.768480" width="11.469826" height="3.961254" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1039.323562" y="864.258989" width="4.676438" height="3.532452" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1019.853736" y="864.258989" width="11.469826" height="7.509491" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="743.391086" y="897.770178" width="94.248203" height="56.111587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(751.391086,913.370178) scale(0.428992)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">golang.org 534.04KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="861.639289" y="864.258989" width="28.000398" height="19.470745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="1032.662644" y="921.329734" width="5.286920" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -763,6 +1102,25 @@
 
 
 <g>
+	<rect x="953.944917" y="798.060134" width="36.982248" height="28.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="623.769441" y="292.147838" width="199.250301" height="302.135438" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(631.769441,307.747838) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">* 3.57MB</text>
+		
+</g>
+
+
+<g>
 	<rect x="903.627223" y="798.060134" width="10.148003" height="16.286614" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
@@ -788,25 +1146,6 @@
 
 <g>
 	<rect x="861.639289" y="798.060134" width="13.464121" height="28.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="623.769441" y="798.060134" width="95.621645" height="136.688046" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(631.769441,813.660134) scale(0.753993)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">x 1004.76KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1032.662644" y="921.329734" width="5.286920" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -1147,19 +1486,25 @@
 
 
 <g>
-	<rect x="931.714226" y="864.258989" width="5.227175" height="3.105000" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="861.639289" y="1036.641284" width="0.233365" height="7.358716" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
-	<rect x="915.438833" y="878.088164" width="8.275392" height="5.641570" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="942.238028" y="1015.496340" width="11.578412" height="0.983129" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
 
 <g>
-	<rect x="915.438833" y="864.258989" width="8.275392" height="5.829175" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="968.551690" y="864.258989" width="21.666932" height="19.470745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="911.121845" y="921.329734" width="12.035421" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -1202,347 +1547,15 @@
 
 
 <g>
-	<rect x="518.877309" y="1014.597616" width="0.828898" height="0.660368" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="538.839172" y="954.942503" width="7.632301" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="568.920850" y="954.942503" width="3.586034" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="580.506884" y="954.942503" width="3.143819" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="518.877309" y="968.346048" width="0.828898" height="1.799559" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="554.471474" y="954.942503" width="6.449376" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="883.318128" width="46.260652" height="30.933287" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="631.769441" y="656.669174" width="198.038349" height="95.790960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(510.096949,898.918128) scale(0.157608)"
+	transform="translate(639.769441,672.269174) scale(1.000000)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">findfunctab 111.38KB</text>
+	data-math="N">aws-sdk-go 1.82MB</text>
 		
-</g>
-
-
-<g>
-	<rect x="518.877309" y="954.942503" width="11.961863" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="518.877309" y="978.145607" width="0.828898" height="1.799559" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="518.877309" y="1005.937248" width="0.828898" height="0.660368" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="998.053658" width="8.780361" height="11.330257" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="977.301668" width="8.780361" height="12.751990" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="1035.115828" width="8.780361" height="8.884172" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="922.251415" width="44.512153" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="36.000000" y="591.010326" width="458.096949" height="452.989674" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(44.000000,606.610326) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">pclntab 11.06MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="502.096949" y="591.010326" width="97.672492" height="284.307802" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(510.096949,606.610326) scale(0.654427)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">rodata 1.59MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="591.650703" y="954.942503" width="0.490529" height="5.403544" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="1017.383915" width="8.780361" height="9.731913" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="502.096949" y="954.942503" width="8.780361" height="14.359165" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="518.877309" y="997.075476" width="0.828898" height="0.861772" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="556.357601" y="883.318128" width="43.411840" height="30.933287" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(564.357601,898.918128) scale(0.124148)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">textsectionmap 105.53KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="554.609102" y="922.251415" width="20.103181" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="518.877309" y="987.945165" width="0.828898" height="1.130310" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="582.712282" y="922.251415" width="17.057159" height="24.691088" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="861.639289" y="964.977338" width="0.684952" height="5.140130" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="623.769441" y="972.348180" width="94.530391" height="71.651820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(631.769441,987.948180) scale(0.481191)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">gohugoio 623.20KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="911.121845" y="921.329734" width="12.035421" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="962.593193" y="921.329734" width="0.274752" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="953.437987" y="921.329734" width="1.155206" height="1.517280" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="623.769441" y="63.200000" width="260.255852" height="191.347838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(631.769441,78.800000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">func 3.00MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="955.652298" y="240.499907" width="15.482129" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="892.025293" y="63.200000" width="151.974707" height="169.299907" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(900.025293,78.800000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">string 1.59MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="1021.568888" y="240.499907" width="9.378627" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="979.134428" y="240.499907" width="13.803512" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="892.025293" y="240.499907" width="55.627005" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1038.947515" y="240.499907" width="5.052485" height="13.860288" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1000.937940" y="240.499907" width="12.630948" height="14.047930" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="861.639289" y="864.258989" width="28.000398" height="19.470745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1019.853736" y="879.768480" width="11.469826" height="3.961254" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1039.323562" y="864.258989" width="4.676438" height="3.532452" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1019.853736" y="864.258989" width="11.469826" height="7.509491" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="743.391086" y="897.770178" width="94.248203" height="56.111587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(751.391086,913.370178) scale(0.428992)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">golang.org 534.04KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="968.551690" y="864.258989" width="21.666932" height="19.470745" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="1016.886805" y="798.060134" width="27.113195" height="28.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="623.769441" y="635.069174" width="214.038349" height="125.390960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(631.769441,650.669174) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">aws 1.82MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="845.807790" y="635.069174" width="3.143567" height="75.847019" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="845.807790" y="718.916194" width="3.143567" height="15.730289" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
 </g>
 
 
@@ -1559,7 +1572,91 @@
 
 
 <g>
-	<rect x="961.944917" y="810.060134" width="20.805742" height="8.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="631.769441" y="84.800000" width="244.255852" height="161.747838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(639.769441,100.400000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">* 3.00MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="900.025293" y="84.800000" width="135.974707" height="139.699907" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(908.025293,100.400000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">* 1.59MB</text>
+		
+</g>
+
+
+<g>
+	<rect x="631.769441" y="993.948180" width="78.521712" height="42.051820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(639.769441,1009.548180) scale(0.500975)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">hugo 623.13KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="631.769441" y="896.430353" width="58.035201" height="30.317827" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(639.769441,912.030353) scale(0.312762)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">image 252.11KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="680.949860" y="819.660134" width="30.441226" height="68.770219" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(688.949860,835.260134) scale(0.125358)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">net 294.04KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="697.804642" y="896.430353" width="13.586444" height="23.485347" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="631.769441" y="819.660134" width="41.180420" height="68.770219" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(639.769441,835.260134) scale(0.201766)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">text 376.19KB</text>
+		
+</g>
+
+
+<g>
+	<rect x="751.391086" y="919.370178" width="78.248203" height="26.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 
@@ -1675,47 +1772,8 @@
 
 
 <g>
-	<rect x="631.769441" y="896.430353" width="58.035201" height="30.317827" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="961.944917" y="810.060134" width="20.805742" height="8.598855" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(639.769441,912.030353) scale(0.312762)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">image 252.11KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="680.949860" y="819.660134" width="30.441226" height="68.770219" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(688.949860,835.260134) scale(0.125358)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">net 294.04KB</text>
-		
-</g>
-
-
-<g>
-	<rect x="697.804642" y="896.430353" width="13.586444" height="23.485347" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="631.769441" y="819.660134" width="41.180420" height="68.770219" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(639.769441,835.260134) scale(0.201766)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">text 376.19KB</text>
-		
 </g>
 
 
@@ -1926,103 +1984,21 @@
 
 
 <g>
-	<rect x="631.769441" y="993.948180" width="78.521712" height="42.051820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="639.769441" y="678.269174" width="181.883014" height="66.190960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(639.769441,1009.548180) scale(0.500975)"
+	transform="translate(647.769441,693.869174) scale(1.000000)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">hugo 623.13KB</text>
+	data-math="N">service 1.82MB</text>
 		
 </g>
 
 
 <g>
-	<rect x="631.769441" y="84.800000" width="244.255852" height="161.747838" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="639.769441" y="1015.548180" width="57.303383" height="12.451820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(639.769441,100.400000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">* 3.00MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="900.025293" y="84.800000" width="135.974707" height="139.699907" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(908.025293,100.400000) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">* 1.59MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="751.391086" y="919.370178" width="78.248203" height="26.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="631.769441" y="656.669174" width="198.038349" height="95.790960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(639.769441,672.269174) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">aws-sdk-go 1.82MB</text>
-		
-</g>
-
-
-<g>
-	<rect x="971.521525" y="736.934734" width="26.742456" height="7.525399" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="971.521525" y="678.269174" width="2.520483" height="1.065560" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="922.795503" y="713.058550" width="0.064871" height="1.191994" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="922.795503" y="701.753144" width="8.726022" height="3.305406" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="922.795503" y="678.269174" width="8.726022" height="15.483969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="888.951357" y="678.269174" width="25.844146" height="35.981370" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(896.951357,693.869174) scale(0.078879)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">impl 335.23KB</text>
-		
 </g>
 
 
@@ -2089,6 +2065,61 @@
 <g>
 	<rect x="659.200935" y="876.333230" width="0.428841" height="4.097123" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
+</g>
+
+
+<g>
+	<rect x="807.468072" y="931.370178" width="9.492233" height="6.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="759.391086" y="931.370178" width="40.076986" height="6.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="971.521525" y="736.934734" width="26.742456" height="7.525399" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="971.521525" y="678.269174" width="2.520483" height="1.065560" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="922.795503" y="713.058550" width="0.064871" height="1.191994" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="922.795503" y="701.753144" width="8.726022" height="3.305406" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="922.795503" y="678.269174" width="8.726022" height="15.483969" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+</g>
+
+
+<g>
+	<rect x="888.951357" y="678.269174" width="25.844146" height="35.981370" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(896.951357,693.869174) scale(0.078879)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
+	data-math="N">impl 335.23KB</text>
+		
 </g>
 
 
@@ -2455,32 +2486,14 @@
 
 
 <g>
-	<rect x="639.769441" y="1015.548180" width="57.303383" height="12.451820" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="807.468072" y="931.370178" width="9.492233" height="6.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="759.391086" y="931.370178" width="40.076986" height="6.511587" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="639.769441" y="678.269174" width="181.883014" height="66.190960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="647.769441" y="699.869174" width="165.670739" height="36.590960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 <text 
 	data-notex="1" 
 	text-anchor="start"
-	transform="translate(647.769441,693.869174) scale(1.000000)"
+	transform="translate(655.769441,715.469174) scale(1.000000)"
 	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">service 1.82MB</text>
+	data-math="N">s3.S3 1.82MB</text>
 		
 </g>
 
@@ -2983,15 +2996,8 @@
 
 
 <g>
-	<rect x="647.769441" y="699.869174" width="165.670739" height="36.590960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
+	<rect x="655.769441" y="721.469174" width="149.670739" height="6.990960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
-<text 
-	data-notex="1" 
-	text-anchor="start"
-	transform="translate(655.769441,715.469174) scale(1.000000)"
-	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0, 65535); fill-opacity: 1; white-space: pre;" 
-	data-math="N">s3.S3 1.82MB</text>
-		
 </g>
 
 
@@ -3034,12 +3040,6 @@
 
 <g>
 	<rect x="68.000000" y="516.399263" width="15.118229" height="5.011064" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
-	
-</g>
-
-
-<g>
-	<rect x="655.769441" y="721.469174" width="149.670739" height="6.990960" style="fill: rgba(0, 0, 0, 0);opacity:1;fill-opacity:1;stroke:rgba(128,128,128,65535);stroke-width:1px;stroke-opacity:1;" />
 	
 </g>
 

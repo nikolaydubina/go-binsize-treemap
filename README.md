@@ -5,6 +5,12 @@ $ go install github.com/nikolaydubina/go-binsize-treemap@latest
 $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ```
 
+hugo, 62MB
+
+cockroach, 1.4MB
+
+go-graphviz, 6.5MB
+
 ## TODO
 
 - [ ] C++
