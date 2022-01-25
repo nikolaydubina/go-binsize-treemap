@@ -7,6 +7,16 @@ $ go install github.com/nikolaydubina/go-binsize-treemap@latest
 $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ```
 
+## Disclaimer
+
+Should you be worried about your binary size?
+In 2022, few secon videos of cats on tiktok are larger than your binary.
+So probably, you should not worry too much about it.
+However, this tool can be useful if you studying compiler (thinks like interfaces, types, etc.)
+This can be also useful if you want to study wich 3rd party dependencies are getting included and take lots of binary size.
+Next, this can be useful if you are doing `cgo` and want to see how much of C vs Go is included.
+Finally, I build this in spare time as another usecase for treemap tooling I built before.
+
 _<b><p align="center">github.com/gohugoio/hugo</p></b>_
 _<p align="center">62MB, this famous example of large Go project</p>_
 ![](./docs/hugo.svg)
@@ -19,10 +29,17 @@ _<b><p align="center">github.com/goccy/go-graphviz</p></b>_
 _<p align="center">6.5MB, this project has CGO and builds with lots of graphviz code in C</p>_
 ![](./docs/go-graphviz.svg)
 
-## Description
+## Knowledge Base
 
-What is `go.itab`? This is interface related code.
+> What is `go.itab`?
+
+This is interface related code.
 Refer to this [article](https://research.swtch.com/interfaces) by Russ Cox.
+
+> What is `runtime.pclntab`? And why it is so big?
+
+As investigated Cockroach team, it is Go runtime structure for traces ([reference](https://www.cockroachlabs.com/blog/go-file-size/)).
+Past discussions in GitHub [thread](https://github.com/golang/go/issues/36313) on why it is big and what to do about it (well, nothing).
 
 ## Known Issues and TODOs
 
