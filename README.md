@@ -13,10 +13,16 @@ Should you be worried about executable binary size?
 In 2022, few seconds of cat videos or even a single image is tens of MBs.
 Transferring them over network is not a big deal either.
 So, probably, you should not worry too much about it.
-However, this tool can still be useful if you are studying compiler (e.g. interfaces, types, linking).
-Similarly, you can investigate what 3rd party dependencies are getting included in binary, which take large size, or embedded data.
-Next, you may use this when you doing `cgo` and want to see how much of C vs Go is included.
-Finally, I build this in spare time as another usecase for treemap tooling I built before.
+However, this tool can still be useful in couple of cases.
+- You are studying compiler.
+- You are investigating what 3rd party dependencies are getting included in binary.
+- You are checking much data is getting embedded.
+- You are estimating how much code is getting included by packages.
+- You are researching which symbols included.
+- You are doing `cgo`.
+- You are doing treemap visualizations. 
+ 
+I build this in my spare time as another usecase for Go treemap tooling that I built before. Enjoy! Submit issues or PRs!
 
 ## Examples
 
