@@ -84,7 +84,7 @@ Note, c++ support is work in progress.
 $ go tool nm -size <binary finename> | c++filt | go-binsize-treemap > binsize.svg
 ```
 
-### Appendix B: Large dimensions and lots of details
+## Appendix B: Large dimensions and lots of details
 
 If you set dimensions very large you can see lots of details and navigate map.
 
@@ -95,7 +95,7 @@ If you set dimensions very large you can see lots of details and navigate map.
 ... but you can go much higher
 ![](./docs/hugo-16384x16384.svg)
 
-### Appendix C: Small dimensions and informative preview
+## Appendix C: Small dimensions and informative preview
 
 You can generate small preview of project that fits for embedding in README for example.
 
