@@ -67,7 +67,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	converter := symtab.BasicSymtabConverter{
+	converter := BasicSymtabConverter{
 		MaxDepth: maxDepth,
 	}
 	tree := converter.SymtabFileToTreemap(*symtabFile)
@@ -80,7 +80,7 @@ func main() {
 
 	if outputCSV {
 		for name, node := range tree.Nodes {
-			if name == symtab.RootNodeName {
+			if name == rootNodeName {
 				continue
 			}
 			fmt.Printf("%s,%f\n", name, node.Size)
@@ -104,7 +104,7 @@ func updateNodeNamesWithByteSize(tree *treemap.Tree) {
 		nameWithSize := fmt.Sprintf("%s %.2f%sB", node.Name, count, suffix)
 
 		// for secret root just size
-		if name == symtab.RootNodeName {
+		if name == rootNodeName {
 			nameWithSize = fmt.Sprintf("%.2f%sB", count, suffix)
 		}
 

@@ -2,7 +2,7 @@ package symtab
 
 import "testing"
 
-func Test_parseSymbolName(t *testing.T) {
+func Test_ParseSymbolName(t *testing.T) {
 	tests := []struct {
 		rawSymbolName string
 		expSymbolName SymbolName
@@ -318,7 +318,7 @@ func Test_parseSymbolName(t *testing.T) {
 	}
 	for _, tc := range tests {
 		t.Run(tc.rawSymbolName, func(t *testing.T) {
-			s := parseSymbolName(tc.rawSymbolName)
+			s := ParseSymbolName(tc.rawSymbolName)
 			if !EqSymbolName(tc.expSymbolName, s) {
 				t.Errorf("got %#v != exp %#v", s, tc.expSymbolName)
 			}

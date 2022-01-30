@@ -1,15 +1,16 @@
-package symtab
+package main
 
 import (
 	"errors"
 	"log"
 	"strings"
 
+	"github.com/nikolaydubina/go-binsize-treemap/symtab"
 	"github.com/nikolaydubina/treemap"
 )
 
 const (
-	RootNodeName = "some-secret-string-binsize"
+	rootNodeName = "some-secret-string-binsize"
 )
 
 // BasicSymtabConverter converts parsed symtab file into treemap.
@@ -19,7 +20,7 @@ type BasicSymtabConverter struct {
 	MaxDepth uint // number of levels from root, including, if 0 then no limit
 }
 
-func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
+func (s BasicSymtabConverter) SymtabFileToTreemap(sf symtab.SymtabFile) treemap.Tree {
 	if len(sf.Entries) == 0 {
 		return treemap.Tree{}
 	}
@@ -33,11 +34,11 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 
 	for _, entry := range sf.Entries {
 		// skip unrecognized. mostly this is is C/C++ or something else. TODO: what is this?
-		if entry.Type == Undefined {
+		if entry.Type == symtab.Undefined {
 			continue
 		}
 
-		symbolName := parseSymbolName(entry.SymbolName)
+		symbolName := symtab.ParseSymbolName(entry.SymbolName)
 
 		// skip non-go symbols. TODO: what is this?
 		if len(symbolName.PackageParts) == 0 {
@@ -102,7 +103,7 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf SymtabFile) treemap.Tree {
 	case len(roots) == 0:
 		log.Fatalf(errors.New("no roots, possible cycle in graph").Error())
 	case len(roots) > 1:
-		tree.Root = RootNodeName
+		tree.Root = rootNodeName
 		tree.To[tree.Root] = roots
 	default:
 		tree.Root = roots[0]

@@ -28,7 +28,8 @@ func EqSymbolName(a, b SymbolName) bool {
 	}
 	return true
 }
-func parseSymbolName(r string) SymbolName {
+
+func ParseSymbolName(r string) SymbolName {
 	if strings.HasPrefix(r, "type..eq.struct") {
 		return SymbolName{
 			PackageParts: []string{"type"},
