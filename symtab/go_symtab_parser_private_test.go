@@ -27,6 +27,16 @@ func Test_parseGoSymtabLine(t *testing.T) {
 				SymbolName: "$f32.3de978d5",
 			},
 		},
+		{
+			name: "when more then 4 elemnets, then ok-ish with some symbol name",
+			line: "10113fdc0        192 T type..eq.struct { github.com/gohugoio/hugo/source.FileWithoutOverlap; github.com/gohugoio/hugo/resources/page.DeprecatedWarningPageMethods1 }",
+			expEntry: SymtabEntry{
+				Address:    "10113fdc0",
+				Size:       192,
+				Type:       Text,
+				SymbolName: "type..eq.struct { github.com/gohugoio/hugo/source.FileWithoutOverlap; github.com/gohugoio/hugo/resources/page.DeprecatedWarningPageMethods1 }",
+			},
+		},
 	}
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {

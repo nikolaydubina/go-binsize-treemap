@@ -20,7 +20,7 @@ func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	for i, line := range lines {
 		e, err := parseGoSymtabLine(line)
 		if err != nil {
-			err := fmt.Errorf("error parasing symtab file at line num(%d): %w: line: %s", i, err, line)
+			err := fmt.Errorf("error parasing symtab at line num(%d): %w: line: %s", i, err, line)
 			log.Println(err.Error())
 			continue
 		}

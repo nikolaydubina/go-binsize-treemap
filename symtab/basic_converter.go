@@ -12,8 +12,9 @@ const (
 	RootNodeName = "some-secret-string-binsize"
 )
 
-// no heat
-// size is Bytes size
+// BasicSymtabConverter converts parsed symtab file into treemap.
+// Has no heat.
+// Size is bytes.
 type BasicSymtabConverter struct {
 	MaxDepth uint // number of levels from root, including, if 0 then no limit
 }
