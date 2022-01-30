@@ -7,6 +7,8 @@ $ go install github.com/nikolaydubina/go-binsize-treemap@latest
 $ go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
 ```
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/nikolaydubina/go-binsize-treemap.svg)](https://pkg.go.dev/github.com/nikolaydubina/go-binsize-treemap)
+
 ## Disclaimer
 
 Should you be worried about executable binary size?
