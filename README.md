@@ -43,7 +43,7 @@ _<p align="center">6.5MB, this project has CGO and builds with lots of graphviz 
 ![](./docs/go-graphviz.svg)
 
 _<b><p align="center">github.com/zalando/skipper</p></b>_
-_<p align="center">36MB</p>_
+_<p align="center">36MB, is a large Go project, some builds can include C</p>_
 ![](./docs/skipper.svg)
 
 ## Knowledge Base
