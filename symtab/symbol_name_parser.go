@@ -66,11 +66,11 @@ func ParseSymbolName(r string) SymbolName {
 	// has multi-parts package
 	lastSlashIdx := strings.LastIndex(r, "/")
 
-	partsPacakge := strings.Split(r[:lastSlashIdx], "/")
+	partsPackage := strings.Split(r[:lastSlashIdx], "/")
 	partsSymbol := strings.Split(r[lastSlashIdx:], ".")
 
 	return SymbolName{
-		PackageParts: append(partsPacakge, partsSymbol[0][1:]),
+		PackageParts: append(partsPackage, partsSymbol[0][1:]),
 		SymbolParts:  partsSymbol[1:],
 	}
 }

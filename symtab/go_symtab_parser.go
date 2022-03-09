@@ -1,7 +1,6 @@
 package symtab
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"strconv"
@@ -30,49 +29,50 @@ func (s GoSymtabParser) ParseSymtab(lines []string) (*SymtabFile, error) {
 	return &f, nil
 }
 
+// Utilizing observation that:
+// A) symbol type has to be always present
+// B) symbol size is right most before symbol type
+// D) symbol address is optional
+// E) symbol name is optional and everything to the right
 func parseGoSymtabLine(line string) (SymtabEntry, error) {
-	var rawAddress, rawSize, rawType, rawSymbolName string
-
 	fields := strings.Fields(line)
-	numFields := len(fields)
-	switch {
-	case numFields > 4:
-		// this CAN be Go symbols with type struct names that hard to parse: 10113fdc0        192 T type..eq.struct { github.com/gohugoio/hugo/source.FileWithoutOverlap; github.com/gohugoio/hugo/resources/page.DeprecatedWarningPageMethods1 }
-		// assuming so
-		rawAddress = fields[0]
-		rawSize = fields[1]
-		rawType = fields[2]
-		rawSymbolName = strings.Join(fields[3:], " ")
-	case numFields == 4:
-		// normal: "101ae42a0          4 R $f32.3de978d5"
-		rawAddress = fields[0]
-		rawSize = fields[1]
-		rawType = fields[2]
-		rawSymbolName = fields[3]
-	case numFields == 3:
-		// undefined: "       4294971392 U _CFArrayGetCount"
-		rawSize = fields[0]
-		rawType = fields[1]
-		rawSymbolName = fields[2]
-	default:
-		return SymtabEntry{}, errors.New("wrong number of elements in line")
+
+	if len(fields) < 2 {
+		return SymtabEntry{}, fmt.Errorf("at least two entires required in row")
 	}
 
-	var entry SymtabEntry
+	// find index of type
+	idxType := -1
+	for i := 0; i < len(fields); i++ {
+		if _, ok := SymbolTypes[SymbolType(fields[i])]; ok {
+			idxType = i
+			break
+		}
+	}
+	if idxType == -1 {
+		return SymtabEntry{}, fmt.Errorf("symbol type is not found in row")
+	}
+	if !(idxType == 1 || idxType == 2) {
+		return SymtabEntry{}, fmt.Errorf("expected symbol type be either 2nd or 3rd element in row found at(%d)", idxType)
+	}
 
-	entry.Address = rawAddress
-	size, err := strconv.Atoi(rawSize)
+	size, err := strconv.Atoi(fields[idxType-1])
 	if err != nil {
 		return SymtabEntry{}, fmt.Errorf("wrong size field: %w", err)
 	}
-	entry.Size = uint(size)
-	entry.Type = SymbolType(rawType)
-	entry.SymbolName = rawSymbolName
 
-	if len(fields) == 3 {
-		if entry.Type != Undefined {
-			return entry, errors.New("got 3 fields but have non undefined type")
-		}
+	entry := SymtabEntry{
+		Size: uint(size),
+		Type: SymbolType(fields[idxType]),
+	}
+
+	if idxType == 2 {
+		entry.Address = fields[idxType-2]
+	}
+
+	if idxType < len(fields)-1 {
+		entry.SymbolName = strings.Join(fields[idxType+1:], " ")
+
 	}
 
 	return entry, nil

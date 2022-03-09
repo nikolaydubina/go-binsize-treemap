@@ -40,13 +40,17 @@ func (s BasicSymtabConverter) SymtabFileToTreemap(sf symtab.SymtabFile) treemap.
 
 		symbolName := symtab.ParseSymbolName(entry.SymbolName)
 
-		// skip non-go symbols. TODO: what is this?
+		var parts []string
+
+		// strange symbols. non-go like.
+		// append them to still to single root unknown
+		// TODO: what is this? C/C++?
 		if len(symbolName.PackageParts) == 0 {
-			continue
+			parts = append(parts, "unknown")
+		} else {
+			parts = append(parts, symbolName.PackageParts...)
 		}
 
-		var parts []string
-		parts = append(parts, symbolName.PackageParts...)
 		parts = append(parts, symbolName.SymbolParts...)
 
 		if s.MaxDepth > 0 && len(parts) > int(s.MaxDepth) {
