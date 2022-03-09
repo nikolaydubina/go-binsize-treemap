@@ -42,6 +42,10 @@ _<b><p align="center">github.com/goccy/go-graphviz</p></b>_
 _<p align="center">6.5MB, this project has CGO and builds with lots of graphviz code in C</p>_
 ![](./docs/go-graphviz.svg)
 
+_<b><p align="center">github.com/zalando/skipper</p></b>_
+_<p align="center">36MB</p>_
+![](./docs/skipper.svg)
+
 ## Knowledge Base
 
 > What is `go.itab`?
@@ -57,7 +61,7 @@ Past discussions in GitHub [thread](https://github.com/golang/go/issues/36313) o
 ## Known Issues and TODOs
 
 - [ ] Size slightly mismatches actual binary size. Including unknown does not help.
-- [ ] C++
+- [ ] Better symbol names parsing for C++
 - [ ] identify go:embed
 - [ ] color by type + increasing luminance (sys; user; c++; go:embed; etc.)
 - [ ] color by symbol type

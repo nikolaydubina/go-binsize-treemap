@@ -14,7 +14,25 @@ const (
 	StaticBSSSegment SymbolType = "b" // b	static bss segment symbol
 	Constant         SymbolType = "C" // C	constant address
 	Undefined        SymbolType = "U" // U	referenced but undefined symbol
+
+	// special observed
+	Underscore SymbolType = "_" // cpp?
 )
+
+// SymbolTypes has all recognized symbol types.
+var SymbolTypes map[SymbolType]bool = map[SymbolType]bool{
+	Text:             true,
+	StaticText:       true,
+	ReadOnly:         true,
+	StaticReadOnly:   true,
+	Data:             true,
+	StaticData:       true,
+	BSSSegment:       true,
+	StaticBSSSegment: true,
+	Constant:         true,
+	Undefined:        true,
+	Underscore:       true,
+}
 
 // SymtabEntry single symbol details from symtab Go file.
 type SymtabEntry struct {

@@ -29,7 +29,6 @@ var grey = color.RGBA{128, 128, 128, 255}
 
 func main() {
 	var (
-		coverprofile string
 		w            float64
 		h            float64
 		marginBox    float64
@@ -43,7 +42,6 @@ func main() {
 		fmt.Fprint(flag.CommandLine.Output(), doc)
 		flag.PrintDefaults()
 	}
-	flag.StringVar(&coverprofile, "coverprofile", "", "filename of input coverprofile (e.g. cover.out)")
 	flag.Float64Var(&w, "w", 1024, "width of output")
 	flag.Float64Var(&h, "h", 1024, "height of output")
 	flag.Float64Var(&marginBox, "margin-box", 4, "margin between boxes")
