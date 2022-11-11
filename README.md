@@ -5,6 +5,7 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/nikolaydubina/go-binsize-treemap.svg)](https://pkg.go.dev/github.com/nikolaydubina/go-binsize-treemap)
 [![codecov](https://codecov.io/gh/nikolaydubina/go-binsize-treemap/branch/main/graph/badge.svg?token=jK465mG5iO)](https://codecov.io/gh/nikolaydubina/go-binsize-treemap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nikolaydubina/go-binsize-treemap)](https://goreportcard.com/report/github.com/nikolaydubina/go-binsize-treemap)
+[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)
 
 ```
 $ go install github.com/nikolaydubina/go-binsize-treemap@latest
