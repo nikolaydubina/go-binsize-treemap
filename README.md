@@ -1,9 +1,5 @@
 # 🔍 Go binary size SVG treemap
 
-<p align="center">
-  ✨ Sponsored by <a href="https://ndx.one/?ct=github">NDX Technologies</a>
-</p>
-
 > Make treemap breakdown of Go executable binary
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/nikolaydubina/go-binsize-treemap.svg)](https://pkg.go.dev/github.com/nikolaydubina/go-binsize-treemap)
